@@ -10,7 +10,7 @@
 <body>
     <script>
         var isPrime = false;
-        var sumOfPrimes = 0;
+        var sumOfPrimes = 0; // this is the sum of primes
         var currentPrime = 0;
         for (let i = 3; i < 2000001; i+2) {
             isPrime = true;
@@ -19,6 +19,7 @@
                     isPrime = false;
                 }
             }
+			//this is just me adding a line.  Here's alpha branch.
             if (isPrime) {
                 sumOfPrimes +i;
                 alert(i + " is prime, just sayin' - and so my sum is now: " + sumOfPrimes);
